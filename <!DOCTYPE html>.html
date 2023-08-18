@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lawyers for Civil Rights: Is Your Immigration Form Eligible To Be Waived? </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #white;
+            color: #FB4F00;
+        }
+
+        header {
+            background-color: #FB4F00;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #FB4F00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+         img {
+            max-width: 100%; /* Set the maximum width to 100% of its container */
+            height: auto; /* Maintain the image's aspect ratio */
+        }
+
+        /* Media query for smaller window sizes */
+        @media (max-width: 768px) {
+            img {
+                max-width: 50%; /* Reduce the maximum width when the window width is 768px or smaller */
+            }
+        }
+    </style>
+    <script>
+ var wordList = [
+            "EOIR-29",
+            "I-90",
+            "I-129",
+            "I-131",
+            "I-191",
+            "I-192",
+            "I-485",
+            "I-539",
+            "I-601",
+            "I-694",
+            "I-751",
+            "I-765",
+            "I-817",
+            "I-821",
+            "I-881",
+            "N-300",
+            "N-336",
+            "N-400",
+            "N-470",
+            "N-565",
+            "N-600",
+            "N-600K"
+        ];
+
+        function checkWord() {
+            var inputWord = document.getElementById("inputWord").value.toUpperCase();
+            var outputElement = document.getElementById("output");
+
+            if (wordList.includes(inputWord)) {
+                outputElement.innerHTML = "Yes";
+            } else {
+                outputElement.innerHTML = "No";
+            }
+        }    </script>
+</head>
+<body>
+    <header>
+        <h1>Lawyers for Civil Rights: Is Your Immigration Form Eligible To Be Waived? </h1>
+    </header>
+    <div class="container">
+        <input type="text" id="inputWord" placeholder="Type the form name (i.e. I-90). Remember the dashes.">
+        <button onclick="checkWord()">Check</button>
+        <p>Is this immigration form eligible to be waived?  <span id="output"></span></p>
+    </div>
+<br>
+ 
+    <div class="flex-container">
+        <div class="container1">
+            
+            <Center> 
+              <b>Full List:</b><br>
+              <br>
+              Biometric Services Fee<br>
+                EOIR-29 <br>
+                I-90<br>
+                I-129<br>
+                I-131<br>
+                I-191<br>
+                I-192<br>
+                I-485<br>
+                I-539<br>
+                I-601<br>
+                I-694<br>
+                I-751<br>
+                I-765<br>
+                I-817<br>
+                I-821<br>
+                I-881<br>
+                N-300<br>
+                N-336<br>
+                N-400<br>
+                N-470<br>
+                N-470<br>
+                N-565<br>
+                N-600<br>
+                N-600K<br>
+                </Center>
+        </div>
+        <div class="container2">
+<Center>
+<B>To find your form code:</B>
+    Look to the top right corner of the first page of the form if you have a physical paper. It is the set of letters/numbers next to the word "Form" for both physical and digital form filing.
+<br>
+<br>
+    <img src="https://murraysilva.com/wp-content/uploads/2023/06/download34.jpg" alt="Image Displaying Where To Find Form">
+</Center>
+            
+
+
+        </div>
+    </div>
+    
+    <style>
+        .flex-container {
+            display: flex;
+        }
+    
+        .container1, .container2 {
+            flex: 1; /* Equal distribution of space */
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    
+</body>
+</html>
